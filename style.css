@@ -26,7 +26,10 @@ h1{
 header_area
 ==============================================================*/
 #header_area{
+    background-color: #fa6f61;
     overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 .inner_header{
     float: right;
@@ -40,7 +43,10 @@ header_area
     color: #3c3c3c;
     text-decoration: none;
     margin-right: 10px;
-    font-weight: 16px;
+    font-size: 16px;
+}
+.inner_header ul li a:hover{
+    color: white;
 }
 /*============================================================ 
 banner_area

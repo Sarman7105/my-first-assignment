@@ -31,9 +31,20 @@ header_area
     border: 1px solid gray;
     border-radius: 10px;
 }
-.inner_header{
+#header_left{
+    float: left;
+    
+}
+#header_right{
+    margin-right: 10px;
     float: right;
 }
+#header_right input{
+    border: 0;
+    height: 20px;
+    border-radius: 8px;
+}
+
 .inner_header ul li{
     list-style: none;
     display: inline-block;
@@ -77,6 +88,10 @@ banner_area
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    transition: 0.2s;
+}
+.link_button:hover{
+    font-size: 18px;
 }
 .orange_highlight{
     color: #ff8367;
@@ -194,4 +209,9 @@ footer_area
     height: 30px;
     margin-right: 7px;
     margin-top: 10px;
+    transition: 0.5s;
+}
+.social_icon img:hover{
+    background-color: rgba(25, 25, 200, 0.89);
+    border-radius: 5px;
 }

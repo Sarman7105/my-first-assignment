@@ -158,6 +158,16 @@ inquiry_area
 /*============================================================ 
 footer_area
 ==============================================================*/
+.outer_footer{
+    background-color: white;
+    overflow: hidden;
+}
+.outer_child{
+    width: 40%;
+    border: 1px solid gray;
+    float: left;
+}
+
 .footer_area{
     background-color: rgba(128, 128, 128,0.1);
     padding: 5px;
